@@ -71,7 +71,7 @@ p {
 	flex-flow: row wrap;
 	justify-content: space-between;
     align-items: flex-end;
-    margin: 2% 5%;
+    margin: 2% 0;
 }
 
 .topnav a{
@@ -88,6 +88,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -191,12 +192,38 @@ p {
 .aboutboxcontainer{
     display: flex;
     flex-flow: row wrap;
-    margin: 0 5%;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 0 20px;
 }
 
 .aboutboxes{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
     width: 47%;
     border-bottom: 1px dashed black;
+    margin: 20px 0;
+}
+
+.aboutboxes img{
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.aboutboxes a{
+    color: black;
+	text-decoration: none;
+	text-align: center;
+	border: 2px black solid;
+	border-radius: 7px;
+    padding: 10px 18px;
+    margin: 15px 0;
+}
+
+.worktogether{
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 footer {
