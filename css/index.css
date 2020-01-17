@@ -66,6 +66,19 @@ p {
     line-height: 1.4;
 }
 
+.topnav{
+    display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+    align-items: flex-end;
+    margin: 2% 5%;
+}
+
+.topnav a{
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,12 +117,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box.box1{
+    background-color: teal;
+}
+
+.box.box2{
+    background-color: gold;
+}
+
+.box.box3{
+    background-color: cadetblue;
+}
+
+.box.box4{
+    background-color: coral;
+}
+
+.box.box5{
+    background-color: crimson;
+}
+
+.box.box6{
+    background-color: forestgreen;
+}
+
+.box.box7{
+    background-color: darkorchid;
+}
+
+.box.box8{
+    background-color: hotpink;
+}
+
+.box.box9{
+    background-color: indigo;
+}
+
+.box.box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -124,6 +176,27 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.aboutheadimg{
+    width: 100%;
+}
+
+.aboutbox1{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.aboutboxcontainer{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 5%;
+}
+
+.aboutboxes{
+    width: 47%;
+    border-bottom: 1px dashed black;
 }
 
 footer {
